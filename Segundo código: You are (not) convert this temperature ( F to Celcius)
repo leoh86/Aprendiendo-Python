@@ -1,0 +1,11 @@
+print("Hola, este es un programa para convertir grados Fahrenheit a grados Celcius ")
+
+Fah= float(input("Introduce los grados Fahrenheit que deseas convertir, acepta números decimales:"))
+
+print("La temperatura que deseas convertir es: {} {}" .format(Fah, "°F"))
+
+Conversion = (Fah - 32)*(5/9)
+
+print("Y su conversión es: {} {}".format(Conversion, "°C"))
+
+print("Gracias por usar mi programa :)")
